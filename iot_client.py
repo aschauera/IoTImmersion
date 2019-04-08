@@ -14,9 +14,9 @@ from iotc import IOTConnectType, IOTLogLevel
 from random import randint
 
 # params from IoT Central --> go to device page, click in Connect on the top right corner, copy-paste these parameters
-deviceId = "756353cd-dfdb-4a7f-8c30-038c7ae63ea7" 
-scopeId = "0ne0004C2BE"
-mkey = "PQxORiqcbvMm/A7u2jU1N2oAH5iLMFn+xOeIY1upkHI="
+deviceId = "<deviceId>" 
+scopeId = "<scope>"
+mkey = "<key1|key2>"
 oldState = "NOMINAL"
 newState = "NOMINAL"
 vibration_threshold = 40
